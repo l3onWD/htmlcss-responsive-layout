@@ -112,6 +112,10 @@ section {
     }
 }
 
+.align-items-end {
+    align-items: flex-end;
+}
+
 
 /******* Debug *******/
 .db-border {
@@ -229,15 +233,7 @@ section {
 /******* Section Features *******/
 
 
-
 /******* Section Plannings *******/
-/* Media LG */
-@media screen and (min-width: 992px) {
-    
-    #plannings .row {
-        align-items: flex-end;
-    }
-}
 
 
 /******* Section Testimonials *******/
