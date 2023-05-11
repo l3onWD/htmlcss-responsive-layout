@@ -370,3 +370,16 @@ footer {
 #highlights .col-md-66:first-child .card {
     padding-bottom: 0;
 }
+
+
+/******* Section Plannings *******/
+@media screen and (min-width: 768px) {
+
+    #plannings {
+        padding-top: 8rem;
+    }
+
+    #plannings h2 {
+        font-size: 70px;
+    }
+}
