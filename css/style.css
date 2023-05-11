@@ -207,3 +207,17 @@ ul {
         flex-basis: calc(100% / 3 * 2);
     }
 }
+
+
+/******* Section Strategic Plannings *******/
+/* Media LG */
+@media screen and (min-width: 992px) {
+    
+    #strategic-plannings .row {
+        align-items: flex-end;
+    }
+
+    #strategic-plannings .col {
+        flex-basis: 50%;
+    }
+}
