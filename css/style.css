@@ -129,6 +129,10 @@ section {
     background-color: cyan;
 }
 
+.db-black {
+    background-color: black;
+}
+
 .db-h-md {
     min-height: 500px;
 }
@@ -277,3 +281,9 @@ section {
 
 
 /******* Section Get Started *******/
+
+
+/******* Footer *******/
+footer {
+    padding: 3rem 0;
+}
