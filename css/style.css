@@ -1,9 +1,16 @@
 /******* Variables *******/
 :root {
+    --col-darkblue: #5c7182;
+    --col-blue: #0084fd;
+    --col-cyan: #b5ddff;
+    --col-purple: #9792e4;
+    --col-yellow: #fdc15f;
+    --col-gray: #8d8d8d;
+    --col-dark: #333333;
 
     --container-md: 760px;
     --container-lg: 984px;
-    --header-height: 100px;
+    --header-height: 80px;
 }
 
 
@@ -178,6 +185,7 @@ section {
     width: 100%;
 
     height: var(--header-height);
+    background-color: var(--col-blue);
 }
 
 
@@ -186,6 +194,9 @@ section {
     display: flex;
     justify-content: space-between;
     height: 100%;
+    box-shadow: 0 2px 6px rgba(0, 0, 255, 0.4);
+
+    color: #fff;
 }
 
 .navbar > * {
@@ -193,14 +204,20 @@ section {
     align-items: center;
 }
 
-/* Navbar Menu */
-.navbar-menu {
+/* Navbar Logo */
+.navbar-logo img {
+    height: 40px;
+}
+
+/* Navbar Menu | Navbar Actions */
+.navbar-menu,
+.navbar-actions {
     display: none;
 }
 
-/* Navbar Actions */
-.navbar-actions {
-    display: none;
+/* Navbar Toggler */
+.navbar-menu-toggler {
+    font-size: 32px;
 }
 
 /* Media LG */
