@@ -2,6 +2,7 @@
 :root {
 
     --container: 1080px;
+    --header-height: 100px;
 }
 
 
@@ -23,6 +24,7 @@ p {
 }
 
 a {
+    color: inherit;
     text-decoration: none;
 }
 
@@ -90,6 +92,14 @@ ul {
     background-color: blue;
 }
 
+.db-red {
+    background-color: red;
+}
+
+.db-yellow {
+    background-color: rgb(130, 130, 15);
+}
+
 .db-h {
     min-height: 500px;
 }
@@ -117,5 +127,29 @@ ul {
     left: 0;
     width: 100%;
 
-    height: 100px;
+    height: var(--header-height);
+}
+
+
+/******* Navbar *******/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    padding: 1.5rem 2rem;
+}
+
+.navbar > * {
+    display: flex;
+    align-items: center;
+}
+
+/* Navbar Menu */
+.navbar-menu {
+    display: none;
+}
+
+/* Navbar Actions */
+.navbar-actions {
+    display: none;
 }
