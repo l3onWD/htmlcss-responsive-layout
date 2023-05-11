@@ -219,6 +219,7 @@ section {
     background-color: var(--col-cyan);
     border-radius: 24px;
     padding: 2rem;
+    height: 100%;
 }
 
 .card-icon {
@@ -233,6 +234,19 @@ section {
 
 .card-text {
     font-weight: bold;
+}
+
+.card .row {
+    height: 100%;
+}
+
+.card-img {
+    align-self: flex-end;
+}
+
+.card-img img {
+    width: 250px;
+    display: block;
 }
 
 
@@ -315,11 +329,6 @@ footer {
 
 
 /******* Section Highlights *******/
-#highlights .col-lg-50:nth-child(2) img {
-    width: 250px;
-    display: block;
-
-    position: relative;
-    bottom: -2rem;
-    left:0;
+#highlights .col-md-66:first-child .card {
+    padding-bottom: 0;
 }
