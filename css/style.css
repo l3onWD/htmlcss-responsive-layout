@@ -83,9 +83,11 @@ ul {
 
 /******* Debug *******/
 .debug {
-    min-height: 500px;
-    background-color: aquamarine;
     border: 2px dashed #fff;
+}
+
+.bg-blue {
+    background-color: blue;
 }
 
 
@@ -101,4 +103,15 @@ ul {
     padding: 6px 12px;
     color: #000;
     background-color: transparent;
+}
+
+
+/******* Header *******/
+#main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    height: 60px;
 }
