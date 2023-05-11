@@ -153,3 +153,20 @@ ul {
 .navbar-actions {
     display: none;
 }
+
+@media screen and (min-width: 992px) {
+    /* Navbar Menu */
+    .navbar-menu {
+        display: flex;
+    }
+    
+    /* Navbar Actions */
+    .navbar-actions {
+        display: flex;
+    }
+
+    /* Navbar Toggler */
+    .navbar-menu-toggler {
+        display: none;
+    }
+}
