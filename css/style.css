@@ -242,6 +242,7 @@ section {
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 1;
 
     height: var(--header-height);
     background-color: var(--col-blue);
@@ -310,4 +311,15 @@ section {
 /******* Footer *******/
 footer {
     padding: 3rem 0;
+}
+
+
+/******* Section Highlights *******/
+#highlights .col-lg-50:nth-child(2) img {
+    width: 250px;
+    display: block;
+
+    position: relative;
+    bottom: -2rem;
+    left:0;
 }
