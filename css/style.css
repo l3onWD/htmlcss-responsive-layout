@@ -263,3 +263,14 @@ section {
 
 
 /******* Section About *******/
+/* Media MD */
+@media screen and (min-width: 768px) {
+    
+    #about .col {
+        flex-basis: calc(100% / 3);
+    }
+    
+    #about .col:first-child {
+        flex-basis: calc(100% / 3 * 2);
+    }
+}
