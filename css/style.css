@@ -17,6 +17,7 @@
 /******* Generics *******/
 body {
     font-family: 'PT Sans', sans-serif;
+    padding-top: var(--header-height);
 }
 
 p {
@@ -30,6 +31,10 @@ a {
 
 ul {
     list-style: none;
+}
+
+section {
+    padding: 4rem 0;
 }
 
 
@@ -98,6 +103,10 @@ ul {
 
 .db-yellow {
     background-color: rgb(130, 130, 15);
+}
+
+.db-gray {
+    background-color: gray;
 }
 
 .db-h {
