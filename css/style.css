@@ -234,3 +234,11 @@ ul {
         flex-basis: 50%;
     }
 }
+
+/* Media LG */
+@media screen and (min-width: 992px) {
+    
+    #benefits .col {
+        flex-basis: calc(100% / 3);
+    }
+}
