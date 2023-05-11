@@ -136,7 +136,7 @@ ul {
     display: flex;
     justify-content: space-between;
     height: 100%;
-    padding: 1.5rem 2rem;
+    padding: 0 2rem;
 }
 
 .navbar > * {
@@ -154,10 +154,19 @@ ul {
     display: none;
 }
 
+/* Media LG */
 @media screen and (min-width: 992px) {
     /* Navbar Menu */
     .navbar-menu {
+        align-self: stretch;
         display: flex;
+    }
+
+    .navbar-menu a {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding: 0 1rem;
     }
     
     /* Navbar Actions */
