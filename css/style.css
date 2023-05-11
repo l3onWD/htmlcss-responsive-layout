@@ -269,8 +269,11 @@ section {
     #about .col {
         flex-basis: calc(100% / 3);
     }
-    
+
     #about .col:first-child {
         flex-basis: calc(100% / 3 * 2);
     }
 }
+
+
+/******* Section Get Started *******/
