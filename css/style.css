@@ -82,7 +82,7 @@ section {
 }
 
 .col {
-    flex-basis: 100%
+    flex-basis: 100%;
 }
 
 
@@ -227,15 +227,15 @@ section {
 }
 
 
-/******* Section Strategic Plannings *******/
+/******* Section Plannings *******/
 /* Media LG */
 @media screen and (min-width: 992px) {
     
-    #strategic-plannings .row {
+    #plannings .row {
         align-items: flex-end;
     }
 
-    #strategic-plannings .col {
+    #plannings .col {
         flex-basis: 50%;
     }
 }
@@ -260,3 +260,6 @@ section {
         flex-basis: calc(100% / 3);
     }
 }
+
+
+/******* Section About *******/
