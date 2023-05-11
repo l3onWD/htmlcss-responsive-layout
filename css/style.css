@@ -383,3 +383,18 @@ footer {
         font-size: 70px;
     }
 }
+
+@media screen and (min-width: 992px) {
+
+    #plannings .container {
+        padding: 0 100px;
+    }
+
+    #plannings .row > * {
+        padding: 0 36px;
+    }
+
+    #plannings h2 {
+        font-size: 32px;
+    }
+}
