@@ -1,7 +1,6 @@
 /******* Variables *******/
 :root {
 
-    --container: 1080px;
     --header-height: 100px;
 }
 
@@ -33,15 +32,11 @@ ul {
     list-style: none;
 }
 
-section {
-    padding: 4rem 0;
-}
-
 
 /******* Utils *******/
 /* Misc */
 .container {
-    max-width: var(--container);
+    padding: 3rem 2rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -68,9 +63,11 @@ section {
 }
 
 .col {
-    flex-grow: 1;
+    flex-basis: 100%
 }
 
+
+/*
 .col-33 {
     flex-basis: calc(100% / 3);
 }
@@ -86,7 +83,7 @@ section {
 .col-66 {
     flex-basis: calc(100% / 3 * 2);
 }
-
+*/
 
 /******* Debug *******/
 .db-border {
@@ -109,8 +106,16 @@ section {
     background-color: gray;
 }
 
-.db-h {
+.db-cyan {
+    background-color: cyan;
+}
+
+.db-h-md {
     min-height: 500px;
+}
+
+.db-h-sm {
+    min-height: 200px;
 }
 
 
@@ -188,3 +193,6 @@ section {
         display: none;
     }
 }
+
+
+/******* Section Features *******/
