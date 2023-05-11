@@ -196,3 +196,14 @@ ul {
 
 
 /******* Section Features *******/
+/* Media MD */
+@media screen and (min-width: 768px) {
+    
+    #features .col {
+        flex-basis: calc(100% / 3);
+    }
+
+    #features .col:first-child {
+        flex-basis: calc(100% / 3 * 2);
+    }
+}
