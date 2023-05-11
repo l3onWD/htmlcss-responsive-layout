@@ -1,0 +1,104 @@
+/******* Variables *******/
+:root {
+
+    --container: 1080px;
+}
+
+
+/******* Resets *******/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/******* Generics *******/
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+p {
+    margin-bottom: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/******* Utils *******/
+/* Misc */
+.container {
+    max-width: var(--container);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/******* Layout *******/
+/* Flex Grid */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+.row > * {
+    padding: 0 1rem;
+}
+
+.col {
+    flex-grow: 1;
+}
+
+.col-33 {
+    flex-basis: calc(100% / 3);
+}
+
+.col-40 {
+    flex-basis: 40%;
+}
+
+.col-60 {
+    flex-basis: 60%;
+}
+
+.col-66 {
+    flex-basis: calc(100% / 3 * 2);
+}
+
+
+/******* Debug *******/
+.debug {
+    min-height: 500px;
+    background-color: aquamarine;
+    border: 2px dashed #fff;
+}
+
+
+/* ====================================== */
+/******* Buttons *******/
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid transparent;
+    cursor: pointer;
+    
+    padding: 6px 12px;
+    color: #000;
+    background-color: transparent;
+}
