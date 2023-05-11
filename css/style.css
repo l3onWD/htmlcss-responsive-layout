@@ -82,12 +82,16 @@ ul {
 
 
 /******* Debug *******/
-.debug {
+.db-border {
     border: 2px dashed #fff;
 }
 
-.bg-blue {
+.db-blue {
     background-color: blue;
+}
+
+.db-h {
+    min-height: 500px;
 }
 
 
@@ -113,5 +117,5 @@ ul {
     left: 0;
     width: 100%;
 
-    height: 60px;
+    height: 100px;
 }
