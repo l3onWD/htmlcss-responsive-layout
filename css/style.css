@@ -34,11 +34,15 @@ ul {
     list-style: none;
 }
 
+section {
+    padding: 3rem 0;
+}
+
 
 /******* Utils *******/
 /* Misc */
 .container {
-    padding: 3rem 2rem;
+    padding: 0 2rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -54,6 +58,7 @@ ul {
         max-width: var(--container-lg);
     }
 }
+
 
 .img-fluid {
     max-width: 100%;
@@ -164,7 +169,6 @@ ul {
     display: flex;
     justify-content: space-between;
     height: 100%;
-    padding: 0 2rem;
 }
 
 .navbar > * {
